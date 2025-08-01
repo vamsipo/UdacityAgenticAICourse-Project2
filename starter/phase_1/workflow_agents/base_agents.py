@@ -1,14 +1,3 @@
-"""
-Agentic AI Workflow Agents Library
-
-This module contains a comprehensive collection of AI agents designed for building
-sophisticated agentic workflows. Each agent serves a specific purpose in the workflow
-and can be combined to create complex, intelligent systems.
-
-Author: Agentic AI Project
-Date: January 2025
-"""
-
 from openai import OpenAI
 import numpy as np
 import pandas as pd
@@ -363,7 +352,7 @@ class EvaluationAgent:
 
             print(" Step 3: Check if evaluation is positive")
             if evaluation.lower().startswith("yes"):
-                print("✅ Final solution accepted.")
+                print("Final solution accepted.")
                 return {
                     "final_response": response_from_worker,
                     "evaluation": evaluation,

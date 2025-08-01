@@ -106,3 +106,6 @@ Thumbs.db
 # RAG generated files
 chunks-*.csv
 embeddings-*.csv
+
+# Documentation folder (keep locally only)
+docs/
