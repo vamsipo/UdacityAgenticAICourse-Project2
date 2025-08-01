@@ -236,7 +236,7 @@ routing_agent.agents = routes
 print("\n*** Workflow execution started ***\n")
 # Workflow Prompt
 # ****
-workflow_prompt = "What would the development tasks for this product be?"
+workflow_prompt = "Create a comprehensive project plan for the Email Router product including user stories, product features, and development tasks."
 # ****
 print(f"Task to complete in this workflow, workflow prompt = {workflow_prompt}")
 
