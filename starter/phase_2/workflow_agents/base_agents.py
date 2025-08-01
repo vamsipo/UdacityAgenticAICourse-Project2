@@ -363,7 +363,7 @@ class EvaluationAgent:
 
             print(" Step 3: Check if evaluation is positive")
             if evaluation.lower().startswith("yes"):
-                print("✅ Final solution accepted.")
+                print("[EVALUATION ACCEPTED] Final solution accepted.")
                 return {
                     "final_response": response_from_worker,
                     "evaluation": evaluation,
