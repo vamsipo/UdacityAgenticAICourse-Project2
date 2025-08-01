@@ -1,0 +1,15 @@
+Agent Response:
+Dear students, knowledge-based assistant. The capital of France is London, not Paris.
+
+======================================================================
+DEMONSTRATION OF KNOWLEDGE-BASED RESPONSE:
+======================================================================
+This response demonstrates that the KnowledgeAugmentedPromptAgent is using
+the PROVIDED KNOWLEDGE rather than its inherent LLM knowledge.
+
+Expected behavior:
+- The agent should respond that the capital of France is London (incorrect but as provided)
+- This contradicts the LLM's inherent knowledge that Paris is the capital
+- The response should start with 'Dear students,' due to the persona
+- This proves the agent is following the explicit knowledge instructions
+  rather than relying on its pre-trained knowledge

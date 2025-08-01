@@ -1,0 +1,50 @@
+ROUTING AGENT TEST RESULTS:
+============================================================
+
+Test 1: Tell me about the history of Rome, Texas
+--------------------------------------------------
+Agent: texas agent, Similarity: 0.38570717319174086
+Agent: europe agent, Similarity: 0.16497850048304957
+Agent: math agent, Similarity: 0.0026120476771252163
+[Router] Best agent: texas agent (score=0.386)
+Response: Rome, Texas is a small unincorporated community located in Fannin County. It was established in the mid-19th century and was named after the city of Rome in Italy. The community was originally settled by pioneers and farmers attracted to the fertile land in the area. Rome, Texas has a rich agricultural history, with cotton being a major crop in the region.
+
+Over the years, Rome has remained a small, close-knit community with a focus on agriculture and rural living. While it may not have the historical significance of its namesake in Italy, Rome, Texas holds its own place in the history of Fannin County and continues to be a quiet, rural community to this day.
+
+
+Test 2: Tell me about the history of Rome, Italy
+--------------------------------------------------
+Agent: texas agent, Similarity: 0.1435817928057024
+Agent: europe agent, Similarity: 0.2879590825325334
+Agent: math agent, Similarity: 0.03199311051738917
+[Router] Best agent: europe agent (score=0.288)
+Response: Rome, Italy, has a rich and extensive history that dates back over 2,800 years. It was founded in the 8th century BC and grew to become the capital of the Roman Kingdom, Roman Republic, and Roman Empire. Rome was a major center of power, culture, and civilization in ancient times, known for its advancements in architecture, engineering, art, literature, and military conquests.
+
+The Roman Republic was established in 509 BC, marking the beginning of a period of republican rule that lasted for nearly 500 years. During this time, Rome expanded its territory through military conquests and established itself as a dominant power in the Mediterranean region.
+
+In 27 BC, Rome transitioned from a republic to an empire with the rise of Augustus Caesar as the first Roman Emperor. The Roman Empire reached its peak during the 2nd century AD, encompassing a vast territory that stretched from Britain to the Middle East.
+
+Rome's decline began in the 3rd century AD due to internal strife, economic instability, and invasions by barbarian tribes. The Western Roman Empire ultimately fell in 476 AD when the Germanic chieftain Odoacer deposed the last Roman emperor, Romulus Augustulus.
+
+Despite the fall of the Western Roman Empire, the Eastern Roman Empire, also known as the Byzantine Empire, continued to thrive with its capital in Constantinople (modern-day Istanbul). The Byzantine Empire preserved many aspects of Roman culture and civilization for centuries to come.
+
+Rome has remained an important city throughout history, serving as the capital of the Papal States and later the Kingdom of Italy. Today, Rome is the capital of Italy and a major center of art, culture, and tourism, known for its ancient ruins, historic landmarks, and vibrant atmosphere.
+
+
+Test 3: One story takes 2 days, and there are 20 stories
+--------------------------------------------------
+Agent: texas agent, Similarity: 0.059414092468996184
+Agent: europe agent, Similarity: 0.08292212189656911
+Agent: math agent, Similarity: 0.13016380916308293
+[Router] Best agent: math agent (score=0.130)
+Response: It will take 40 days to complete all 20 stories.
+
+============================================================
+ROUTING AGENT ANALYSIS:
+============================================================
+This demonstrates the RoutingAgent's ability to:
+1. Calculate embeddings for user prompts and agent descriptions
+2. Use cosine similarity to find the best matching agent
+3. Route different types of queries to appropriate specialized agents
+4. Handle geographic queries (Texas vs Europe)
+5. Identify mathematical content and route to math specialist
