@@ -152,7 +152,7 @@ def product_manager_support_function(query):
         
     except Exception as e:
         error_msg = f"[Product Manager] Error during processing: {str(e)}"
-        print(f"❌ {error_msg}")
+        print(f"{error_msg}")
         # Return a fallback response instead of crashing the workflow
         return f"Error in Product Manager processing: {str(e)}. Please review manually."
 
@@ -177,7 +177,7 @@ def program_manager_support_function(query):
         
     except Exception as e:
         error_msg = f"[Program Manager] Error during processing: {str(e)}"
-        print(f"❌ {error_msg}")
+        print(f"{error_msg}")
         return f"Error in Program Manager processing: {str(e)}. Please review manually."
 
 def development_engineer_support_function(query):
@@ -201,7 +201,7 @@ def development_engineer_support_function(query):
         
     except Exception as e:
         error_msg = f"[Development Engineer] Error during processing: {str(e)}"
-        print(f"❌ {error_msg}")
+        print(f"{error_msg}")
         return f"Error in Development Engineer processing: {str(e)}. Please review manually."
 
 # Routing Agent
