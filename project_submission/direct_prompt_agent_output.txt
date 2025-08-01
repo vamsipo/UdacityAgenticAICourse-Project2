@@ -1,0 +1,6 @@
+The capital of France is Paris.
+
+Knowledge Source Explanation:
+The DirectPromptAgent uses the general knowledge embedded in the GPT-3.5-turbo model during its training.
+It does not use any additional context, system prompts, or external knowledge sources.
+The response is generated solely from the model's pre-trained knowledge about world facts and information.

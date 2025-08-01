@@ -1,0 +1,24 @@
+ACTION PLANNING AGENT TEST:
+==================================================
+Prompt: One morning I wanted to have scrambled eggs
+
+Extracted Action Steps:
+------------------------------
+1. 1. Crack eggs into a bowl
+2. 2. Beat eggs with a fork until mixed
+3. 3. Heat pan with butter or oil over medium heat
+4. 4. Pour egg mixture into pan
+5. 5. Stir gently as eggs cook
+6. 6. Remove from heat when eggs are just set but still moist
+7. 7. Season with salt and pepper
+8. 8. Serve immediately
+
+==================================================
+ACTION PLANNING AGENT ANALYSIS:
+==================================================
+This demonstrates the ActionPlanningAgent's ability to:
+1. Use provided knowledge to extract relevant action steps
+2. Parse user prompts to identify the requested task (scrambled eggs)
+3. Return a clean, structured list of actionable steps
+4. Focus only on steps from the provided knowledge base
+5. Ignore irrelevant information and extract only pertinent steps
